@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769441006923",
+    "project_id": "sober-now-app",
+    "storage_bucket": "sober-now-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769441006923:android:03319a4258ec16a501d4ce",
+        "android_client_info": {
+          "package_name": "com.example.sober_now_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR-Q-q23LW9jSH6Tf1RyVt5pf8MRr3VTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

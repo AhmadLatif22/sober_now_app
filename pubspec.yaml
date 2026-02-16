@@ -1,0 +1,52 @@
+name: sober_now
+description: A sobriety tracking app to help users maintain their journey to recovery.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+
+  # State Management
+  provider: ^6.1.1
+
+  # UI
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+
+  # Utilities
+  flutter_dotenv: ^5.1.0
+  intl: ^0.18.1
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.2
+
+  # Payment
+  flutter_stripe: ^10.1.1
+  http: ^1.1.2
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    # Uncomment these when you add images/icons
+    # - assets/images/
+    # - assets/icons/
